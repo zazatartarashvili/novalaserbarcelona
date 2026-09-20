@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NovaLaserBarcelona | Limpieza láser profesional</title>
+
+    <meta name="description" content="NovaLaserBarcelona ofrece servicios profesionales de limpieza láser de óxido, pintura, metal, piezas de automóviles, piedra, madera y superficies afectadas por incendios.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #222;
+            background: #f5f5f5;
+        }
+
+        header {
+            background: #111;
+            color: white;
+            padding: 20px 6%;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .menu {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #111, #333);
+            color: white;
+            padding: 110px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 52px;
+            margin-bottom: 20px;
+        }
+
+        .hero h2 {
+            font-size: 28px;
+            font-weight: normal;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            max-width: 750px;
+            margin: 0 auto 35px;
+            font-size: 18px;
+        }
+
+        .botones {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .boton {
+            display: inline-block;
+            padding: 14px 25px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .boton-principal {
+            background: white;
+            color: #111;
+        }
+
+        .boton-whatsapp {
+            background: #25D366;
+            color: white;
+        }
+
+        section {
+            padding: 75px 20px;
+        }
+
+        .contenedor {
+            max-width: 1150px;
+            margin: auto;
+        }
+
+        .titulo {
+            text-align: center;
+            margin-bottom: 45px;
+        }
+
+        .titulo h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .titulo p {
+            color: #666;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .servicios {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .servicio {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .servicio h3 {
+            margin-bottom: 12px;
+            font-size: 21px;
+        }
+
+        .servicio p {
+            color: #666;
+        }
+
+        .destacado {
+            background: #111;
+            color: white;
+            text-align: center;
+        }
+
+        .destacado p {
+            max-width: 800px;
+            margin: 20px auto 0;
+            font-size: 18px;
+        }
+
+        .contacto {
+            background: white;
+        }
+
+        .contacto-contenido {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .contacto-dato {
+            margin: 15px 0;
+            font-size: 20px;
+        }
+
+        .contacto-dato a {
+            color: #111;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #111;
+            color: #bbb;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        footer strong {
+            color: white;
+        }
+
+        @media (max-width: 800px) {
+
+            .menu {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 0 8px;
+                font-size: 14px;
+            }
+
+            .hero {
+                padding: 80px 20px;
+            }
+
+            .hero h1 {
+                font-size: 38px;
+            }
+
+            .hero h2 {
+                font-size: 23px;
+            }
+
+            .servicios {
+                grid-template-columns: 1fr;
+            }
+
+            section {
+                padding: 55px 20px;
+            }
+
+            .titulo h2 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="menu">
+
+        <div class="logo">
+            NovaLaserBarcelona
+        </div>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#empresa">Empresa</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+    </div>
+</header>
+
+
+<section class="hero" id="inicio">
+
+    <h1>NovaLaserBarcelona</h1>
+
+    <h2>Limpieza láser profesional</h2>
+
+    <p>
+        Eliminación de óxido, pintura, suciedad y diferentes contaminantes
+        de superficies mediante tecnología de limpieza láser.
+    </p>
+
+    <div class="botones">
+
+        <a class="boton boton-principal" href="#contacto">
+            Solicitar presupuesto
+        </a>
+
+        <a class="boton boton-whatsapp"
+           href="https://wa.me/34624286528"
+           target="_blank">
+            WhatsApp
+        </a>
+
+    </div>
+
+</section>
+
+
+<section id="servicios">
+
+    <div class="contenedor">
+
+        <div class="titulo">
+
+            <h2>Nuestros servicios</h2>
+
+            <p>
+                Soluciones de limpieza láser para diferentes materiales,
+                piezas y superficies.
+            </p>
+
+        </div>
+
+
+        <div class="servicios">
+
+            <div class="servicio">
+
+                <h3>Limpieza de óxido</h3>
+
+                <p>
+                    Eliminación de óxido y corrosión de diferentes
+                    superficies metálicas mediante tecnología láser.
+                </p>
+
+            </div>
+
+
+            <div class="servicio">
+
+                <h3>Eliminación de pintura</h3>
+
+                <p>
+                    Eliminación controlada de pintura y diferentes
+                    recubrimientos de superficies adecuadas.
+                </p>
+
+            </div>
+
+
+            <div class="servicio">
+
+                <h3>Piezas de automóviles</h3>
+
+                <p>
+                    Limpieza de componentes, piezas metálicas y elementos
+                    mecánicos de vehículos.
+                </p>
+
+            </div>
+
+
+            <div class="servicio">
+
+                <h3>Maquinaria y metal</h3>
+
+                <p>
+                    Limpieza de maquinaria, herramientas, estructuras y
+                    diferentes superficies metálicas.
+                </p>
+
+            </div>
+
+
+            <div class="servicio">
+
+                <h3>Piedra y monumentos</h3>
+
+                <p>
+                    Limpieza de determinados tipos de piedra y superficies
+                    minerales utilizando parámetros adecuados.
+                </p>
+
+            </div>
+
+
+            <div class="servicio">
+
+                <h3>Madera</h3>
+
+                <p>
+                    Limpieza láser de determinadas superficies de madera
+                    mediante parámetros adaptados al material.
+                </p>
+
+            </div>
+
+
+            <div class="servicio">
+
+                <h3>Después de incendios</h3>
+
+                <p>
+                    Limpieza de hollín, residuos y restos producidos por
+                    incendios, según el tipo de superficie.
+                </p>
+
+            </div>
+
+
+            <div class="servicio">
+
+                <h3>Trabajos especiales</h3>
+
+                <p>
+                    Analizamos cada superficie y trabajo antes de realizar
+                    el tratamiento para elegir los parámetros adecuados.
+                </p>
+
+            </div>
+
+
+            <div class="servicio">
+
+                <h3>Servicio móvil</h3>
+
+                <p>
+                    Posibilidad de desplazamiento hasta las instalaciones
+                    del cliente dependiendo del trabajo y ubicación.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="destacado" id="empresa">
+
+    <div class="contenedor">
+
+        <h2>Servicio profesional y personalizado</h2>
+
+        <p>
+            En NovaLaserBarcelona estudiamos cada trabajo antes de realizarlo.
+            El tipo de material, el acabado deseado y las características
+            de la superficie determinan los parámetros de limpieza.
+        </p>
+
+        <p>
+            Trabajamos con tecnología de limpieza láser para ofrecer una
+            alternativa precisa y controlada frente a otros métodos
+            tradicionales de limpieza.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section id="contacto" class="contacto">
+
+    <div class="contenedor">
+
+        <div class="titulo">
+
+            <h2>Contacta con nosotros</h2>
+
+            <p>
+                Cuéntanos qué necesitas limpiar y estudiaremos tu trabajo.
+            </p>
+
+        </div>
+
+
+        <div class="contacto-contenido">
+
+            <div class="contacto-dato">
+                📞
+                <a href="tel:+34624286528">
+                    624 28 65 28
+                </a>
+            </div>
+
+
+            <div class="contacto-dato">
+                ✉️
+                <a href="mailto:novalaserbarcelona@gmail.com">
+                    novalaserbarcelona@gmail.com
+                </a>
+            </div>
+
+
+            <div class="botones">
+
+                <a class="boton boton-whatsapp"
+                   href="https://wa.me/34624286528"
+                   target="_blank">
+                    Contactar por WhatsApp
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <p>
+        © 2026 <strong>NovaLaserBarcelona</strong>
+        · Limpieza láser profesional
+    </p>
+
+    <p>
+        Barcelona · Cataluña · España
+    </p>
+
+</footer>
+
+</body>
+</html>
